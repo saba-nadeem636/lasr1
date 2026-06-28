@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SWAN Store</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- Announcement Bar -->
+
+<div id="announcement">
+
+Free Shipping on Orders Over $100
+
+</div>
+
+<!-- Header -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+SWAN
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#announcement">Home</a></li>
+
+<li><a href="#categories">categories</a></li>
+
+<li><a href="#products">Shop</a></li>
+
+<li><a href="#new-arrivals">New Arrivals</a></li>
+
+<li><a href="#features">services</a></li>
+
+<li><a href="#footer-container">Contact</a></li>
+
+</ul>
+
+
+<div class="icons">
+
+<div class="search">
+
+<input
+type="text"
+placeholder="Search Products">
+
+<i class="fa-solid fa-search"></i>
+
+</div>
+
+<i class="fa-regular fa-heart"></i>
+
+<div class="cart">
+
+<i class="fa-solid fa-bag-shopping"></i>
+
+<span id="count">0</span>
+
+</div>
+
+<i class="fa-regular fa-user"></i>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- Hero -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>
+
+Luxury Fashion For Everyone
+
+</h1>
+
+<p>
+
+Discover premium collections inspired by the world's best brands.
+
+</p>
+
+<a href="#products" class="btn">
+
+Shop Now
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=900&q=80"
+alt="Fashion">
+
+</div>
+
+</section>
+
+<!-- Categories -->
+<section id="categories">
+
+<h2 style="font-size: 42px; text-align: center; padding-bottom: 20px;">
+
+Shop by Category
+
+</h2>
+
+<div class="category-grid">
+
+<div class="category">
+
+<img src="men.jpg">
+
+<h3>men</h3>
+
+</div>
+
+<div class="category">
+
+<img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80">
+
+<h3 >Women</h3>
+
+</div>
+
+<div class="category">
+
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80">
+
+<h3>Shoes</h3>
+
+</div>
+
+<div class="category">
+
+<img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600&q=80">
+
+<h3>Accessories</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Products -->
+
+<section id="products">
+
+<h2>
+
+Featured Products
+
+</h2>
+
+<div
+class="product-grid"
+id="productGrid">
+
+<!-- JavaScript will insert products here -->
+
+</div>
+
+</section>
+<!-- ================= SALE BANNER ================= -->
+
+<section class="sale-banner">
+
+    <div class="sale-content">
+
+        <h4>LIMITED TIME OFFER</h4>
+
+        <h2>Summer Collection 2026</h2>
+
+        <p>Get up to <strong>50% OFF</strong> on selected products.</p>
+
+        <a href="#" class="btn">Shop Collection</a>
+
+    </div>
+
+</section>
+
+<!-- ================= NEW ARRIVALS ================= -->
+
+<section id="new-arrivals">
+
+    <div class="section-title">
+
+        <h2>New Arrivals</h2>
+
+        <p>Discover our latest premium collection.</p>
+
+    </div>
+
+    <div class="arrival-grid">
+
+        <div class="arrival-card">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500" alt="">
+            <h3>Leather Jacket</h3>
+            <p>$149.00</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="arrival-card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" alt="">
+            <h3>Running Shoes</h3>
+            <p>$89.00</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="arrival-card">
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500" alt="">
+            <h3>Women's Dress</h3>
+            <p>$119.00</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="arrival-card">
+            <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=500" alt="">
+            <h3>Classic Shirt</h3>
+            <p>$69.00</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section id="features">
+
+    <div id="feature">
+
+        <i class="fa-solid fa-truck-fast"></i>
+
+        <h3>Free Shipping</h3>
+
+        <p>Free worldwide shipping on orders over $100.</p>
+
+    </div>
+
+    <div id="feature">
+
+        <i class="fa-solid fa-credit-card"></i>
+
+        <h3>Secure Payment</h3>
+
+        <p>100% safe and encrypted payment methods.</p>
+
+    </div>
+
+    <div id="feature">
+
+        <i class="fa-solid fa-headset"></i>
+
+        <h3>24/7 Support</h3>
+
+        <p>Friendly customer support available anytime.</p>
+
+    </div>
+
+    <div id="feature">
+
+        <i class="fa-solid fa-rotate-left"></i>
+
+        <h3>Easy Returns</h3>
+
+        <p>30-day hassle-free return policy.</p>
+
+    </div>
+
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="testimonials">
+
+    <div class="section-title">
+
+        <h2>Customer Reviews</h2>
+
+    </div>
+
+    <div class="testimonial-grid">
+
+        <div class="testimonial">
+
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="">
+
+            <h3>Sarah Smith</h3>
+
+            <span>★★★★★</span>
+
+            <p>
+                Amazing quality products. Fast shipping and excellent customer service.
+            </p>
+
+        </div>
+
+        <div class="testimonial">
+
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="">
+
+            <h3>John Wilson</h3>
+
+            <span>★★★★★</span>
+
+            <p>
+                This store has become my favorite place for online shopping.
+            </p>
+
+        </div>
+
+        <div class="testimonial">
+
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="">
+
+            <h3>Emily Johnson</h3>
+
+            <span>★★★★★</span>
+
+            <p>
+                Premium quality and beautiful website. Highly recommended.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="newsletter">
+
+    <h2>Subscribe to Our Newsletter</h2>
+
+    <p>Get updates about new arrivals and exclusive offers.</p>
+
+    <form>
+
+        <input
+            type="email"
+            placeholder="Enter your email">
+
+        <button>
+
+            Subscribe
+
+        </button>
+
+    </form>
+
+</section>
+<!-- ================= SHOPPING CART DRAWER ================= -->
+
+<div class="cart-drawer" id="cartDrawer">
+
+    <div class="cart-header">
+
+        <h2>Shopping Cart</h2>
+
+        <button id="closeCart">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+    <div id="cartItems" class="cart-items">
+
+        <!-- JavaScript will display cart items here -->
+
+    </div>
+
+    <div class="cart-footer">
+
+        <h3>
+            Total:
+            <span id="cartTotal">$0.00</span>
+        </h3>
+
+        <button class="checkout-btn">
+            Proceed to Checkout
+        </button>
+
+    </div>
+
+</div>
+
+<!-- ================= OVERLAY ================= -->
+
+<div class="overlay" id="overlay"></div>
+
+<!-- ================= QUICK VIEW MODAL ================= -->
+
+<div class="quick-view" id="quickView">
+
+    <div class="quick-content">
+
+        <button class="close-modal" id="closeQuick">
+            &times;
+        </button>
+im
+
+        <div class="quick-info">
+
+            <h2 id="quickTitle">Product Name</h2>
+
+            <p id="quickPrice">$0.00</p>
+
+            <p>
+                Experience premium quality with this stylish product.
+                Crafted for comfort, durability, and modern fashion.
+            </p>
+
+            <button class="btn">
+                Add to Cart
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div id="footer-container">
+
+        <div class="footer-column">
+
+            <h2>swan</h2>
+
+            <p>
+                Premium fashion and lifestyle products designed
+                for modern living.
+            </p>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-twitter"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">Shop</a></li>
+
+                <li><a href="#">Categories</a></li>
+
+                <li><a href="#">New Arrivals</a></li>
+
+                <li><a href="#">Sale</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Customer Service</h3>
+
+            <ul>
+
+                <li><a href="#">FAQs</a></li>
+
+                <li><a href="#">Shipping</a></li>
+
+                <li><a href="#">Returns</a></li>
+
+                <li><a href="#">Privacy Policy</a></li>
+
+                <li><a href="#">Terms & Conditions</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Contact</h3>
+
+            <p>Email: support@luxestore.com</p>
+
+            <p>Phone: +1 (555) 123-4567</p>
+
+            <p>New York, USA</p>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 LUXE Store. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+<script src="style.js"></script>
+</body>
+</html>
